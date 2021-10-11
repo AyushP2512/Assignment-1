@@ -1,10 +1,13 @@
 #include<stdio.h>
 
+//Ayush Sharma
+//Scholar id :2012105
+
 int main()
 
 {
 
-    char n[1000];
+    char n[500];
 
     printf("Enter the value\n");
 
