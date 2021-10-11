@@ -4,29 +4,29 @@ int main()
 
 {
 
-    char input[1000];
+    char n[1000];
 
     printf("Enter the value\n");
 
-    scanf("%s",input);
+    scanf("%s",n);
 
     int i=0;
 
-    int check1=0,check2=0;
+    int d1=0,d2=0;
 
-    while(input[i]!='\0')
+    while(n[i]!='\0')
 
     {
 
-        if(input[i]=='.')
+        if(n[i]=='.')
 
         {
 
-            check1++;
+            d1++;
 
-            if(input[i+1]!='\0')
+            if(n[i+1]!='\0')
 
-            check2=1;
+            d2=1;
 
         }
 
@@ -34,7 +34,7 @@ int main()
 
     }
 
-    if(check1==1 && check2==1)
+    if(d1==1 && d2==1)
 
     printf("Valid\n");
 
